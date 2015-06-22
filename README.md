@@ -9,3 +9,7 @@ It's useful for validating a Riemann config before reloading to make sure you do
 
 1. `lein uberjar`
 2. `java -jar riemann-syntax-check-0.1.0-standalone.jar riemann.config`
+
+## Usage with non-standalone version
+
+`java -cp riemann-syntax-check-0.3.0.jar:/usr/share/riemann/riemann.jar riemann_syntax_check riemann.config`
